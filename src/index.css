@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.login{
+  font-family: 'Uchen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  min-height: 100vh;
+}
+
+head, body{
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Uchen';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px;
+  background-image: url('./assets/img/5.jpg');
+
+}
+
+.background-container{
+  background-image: url('./src/assets/img/5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+  height: 100%;
+  width: 100%;
+}
+
